@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-  position: fixed; /* Fixes the navbar at the top */
+  position: absolute; /* Fixes the navbar at the top */
   top: 0;
   left: 0;
   width: 100%; /* Full width */
@@ -38,4 +38,12 @@ body {
 .navbar-item a:hover {
   background-color: #575757; /* Change background on hover */
   border-radius: 4px; /* Optional: add border-radius for rounded corners */
+}
+.container{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }

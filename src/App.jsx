@@ -7,6 +7,9 @@ import Home from './Home'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Register from './Register'
 import Login from './Login'
+import Learning from './learningComponent'
+import Heading from './Headingcomponent'
+// import Card from './Card'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +22,10 @@ function App() {
         <Route path='/register' element = {<Register/>}/>
         <Route path='/navbar' element = {<Navbar/>}/>
         <Route path='/login' element ={<Login/>}/>
+        <Route path='/learning' element ={<Learning/>}/>
+        <Route path='/heading' element ={<Heading/>}/>
+        {/* <Route path='/card' element ={<Card/>}/> */}
+        
         </Routes></BrowserRouter>
    </>
   )

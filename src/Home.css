@@ -1,34 +1,25 @@
-/* Home.css */
-.home-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-}
 
 .content {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 600px; /* Adjust the max-width as needed */
+    align-items: flex-start;
+    max-width: 600px; 
     margin: auto;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    gap: 20px; 
 }
 
 .pizza-image {
-    width: 100%; /* Make the image responsive */
-    max-width: 500px; /* Adjust the max-width as needed */
+    width: 100%; 
+    max-width: 50%; 
     height: auto;
     border-radius: 8px;
 }
 
 .description {
-    text-align: center;
-    margin-top: 20px;
+    text-align: left; /* Align text to the left */
+    margin-top: 0; /* Remove margin-top to align with image */
 }
 
 .description h2 {
@@ -38,6 +29,6 @@
 
 .description p {
     font-size: 16px;
-    color: white;
+    color: black;
     line-height: 1.5;
 }
